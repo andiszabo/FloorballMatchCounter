@@ -1,0 +1,30 @@
+<resources>
+    <!-- Contains the name of the application. -->
+    <string name="app_name">Floorball Match Counter</string>
+
+    <!-- Contains the basic rules of floorball. -->
+    <string name="rules">Floorball is a type of indoor hockey that doesn\'t require any bulky equipment. All you need is a stick and a ball!
+        \nThe object of the game is to score more goals than your opponent.
+        \nA competitive floorball game is officially played over three periods lasting 20 minutes each.
+        \nWhen a player commits a foul, or when the ball is deemed unplayable, play is resumed from a free-hit or a face-off.
+        \nIf you break the rules your opponents get a free hit from the place the referee is pointing to.
+        \nFace-offs are used to start the game at the beginning of each period, to re-start after each goal or in any other situation that does not result in a free hit (e.g. damaged ball).</string>
+
+    <!-- Starting score in the application. -->
+    <string name="score">0</string>
+
+    <!-- Strings for buttons. -->
+    <string name="goal">Goal!</string>
+    <string name="freehit">Free hit</string>
+    <string name="faceoff">Face off</string>
+    <string name="reset">Reset</string>
+    <string name="rulesButton">Rules</string>
+
+    <!-- Strings for editTexts. -->
+    <string name="teamA">Team A</string>
+    <string name="teamB">Team B</string>
+
+    <!-- Strings for the match status. -->
+    <string name="winner">The winner is right now: </string>
+    <string name="draw">It\'s a draw.</string>
+</resources>

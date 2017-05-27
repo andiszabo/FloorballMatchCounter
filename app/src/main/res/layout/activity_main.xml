@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    style="@style/LayoutStyle"
+    android:background="@drawable/floorballbackground"
+    tools:context="com.example.android.floorballmatchcounter.MainActivity">
+
+    <LinearLayout
+        style="@style/LayoutStyle"
+        android:background="@color/layout_transparent">
+
+        <RelativeLayout style="@style/LayoutStyle">
+
+            <LinearLayout
+                android:id="@+id/main_linear"
+                style="@style/LayoutStyle"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="@dimen/linear_layout_width"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/team_a_name"
+                        style="@style/EditTextViewStyle"
+                        android:hint="@string/teamA" />
+
+                    <TextView
+                        android:id="@+id/team_a_goal"
+                        style="@style/TextViewStyle" />
+
+                    <Button
+                        style="@style/ButtonViewStyle"
+                        android:onClick="addGoalForTeamA"
+                        android:text="@string/goal" />
+
+                    <TextView
+                        android:id="@+id/team_a_free_hit"
+                        style="@style/TextViewStyle" />
+
+                    <Button
+                        style="@style/ButtonViewStyle"
+                        android:onClick="addFreeHitForTeamA"
+                        android:text="@string/freehit" />
+
+                    <TextView
+                        android:id="@+id/team_a_face_off"
+                        style="@style/TextViewStyle" />
+
+                    <Button
+                        style="@style/ButtonViewStyle"
+                        android:onClick="addFaceOffForTeamA"
+                        android:text="@string/faceoff" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/view_layout_width"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/view_margin_top"
+                    android:background="@color/viewColor" />
+
+                <LinearLayout
+                    android:layout_width="@dimen/linear_layout_width"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/team_b_name"
+                        style="@style/EditTextViewStyle"
+                        android:hint="@string/teamB" />
+
+                    <TextView
+                        android:id="@+id/team_b_goal"
+                        style="@style/TextViewStyle" />
+
+                    <Button
+                        style="@style/ButtonViewStyle"
+                        android:onClick="addGoalForTeamB"
+                        android:text="@string/goal" />
+
+                    <TextView
+                        android:id="@+id/team_b_free_hit"
+                        style="@style/TextViewStyle" />
+
+                    <Button
+                        style="@style/ButtonViewStyle"
+                        android:onClick="addFreeHitForTeamB"
+                        android:text="@string/freehit" />
+
+                    <TextView
+                        android:id="@+id/team_b_face_off"
+                        style="@style/TextViewStyle" />
+
+                    <Button
+                        style="@style/ButtonViewStyle"
+                        android:onClick="addFaceOffForTeamB"
+                        android:text="@string/faceoff" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/resetButton"
+                style="@style/BottomButtonViewStyle"
+                android:layout_below="@id/main_linear"
+                android:layout_marginBottom="@dimen/reset_button_margin_bottom"
+                android:layout_marginTop="@dimen/reset_button_margin_top"
+                android:onClick="resetScores"
+                android:text="@string/reset" />
+
+            <Button
+                android:id="@+id/rulesButton"
+                style="@style/BottomButtonViewStyle"
+                android:layout_below="@id/resetButton"
+                android:onClick="showRules"
+                android:text="@string/rulesButton" />
+
+            <TextView
+                android:id="@+id/rulesText"
+                style="@style/RulesTextViewStyle"
+                android:layout_below="@id/rulesButton"
+                android:layout_margin="@dimen/rules_margin" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style of textViews in the application. -->
+    <style name="TextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:paddingBottom">@dimen/text_padding_bottom</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:text">@string/score</item>
+    </style>
+
+    <!-- Style of scoring buttonViews in the application. -->
+    <style name="ButtonViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/buttonBackgroundColor</item>
+        <item name="android:layout_marginBottom">@dimen/button_margin_bottom</item>
+        <item name="android:layout_marginLeft">@dimen/button_margin_left_right</item>
+        <item name="android:layout_marginRight">@dimen/button_margin_left_right</item>
+    </style>
+
+    <!-- Style of editTextViews in the application. -->
+    <style name="EditTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:background">@color/semiTransparentBackground</item>
+        <item name="android:padding">@dimen/edittext_padding</item>
+        <item name="android:textSize">@dimen/edittext_text_size</item>
+    </style>
+
+    <!-- Style of other buttonViews at the bottom of application. -->
+    <style name="BottomButtonViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <!-- Style of Rules TextView in the application. -->
+    <style name="RulesTextViewStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <!-- Layouts width and height. -->
+    <style name="LayoutStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+</resources>

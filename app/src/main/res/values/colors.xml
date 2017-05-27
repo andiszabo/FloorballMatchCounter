@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary app colors. -->
+    <color name="colorPrimary">#CDDC39</color>
+    <color name="colorPrimaryDark">#AFB42B</color>
+    <color name="colorAccent">#AEEA00</color>
+
+    <!-- Extra added colors. -->
+    <color name="buttonBackgroundColor">#F0F4C3</color>
+    <color name="textColor">@android:color/white</color>
+    <color name="viewColor">#F0F4C3</color>
+    <color name="semiTransparentBackground">#96CDDC39</color>
+    <color name="layout_transparent">#4dffffff</color>
+</resources>
